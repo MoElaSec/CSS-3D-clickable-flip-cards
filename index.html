@@ -1,12 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <title>3D product Flip Card</title>
+    </head>
+    <body>
+        <div class="flex-container">
+            <!-- Card -->
+            <div class="card">
+                <!-- usfull div well save us time with css -->
+                <div class="card__content"> 
+                    
+                    <!-- Front -->
+                    <div class="card__front">
+                        <h3 class="cad__title">LimeLight Renhold</h3>
+                        <p class="card__subtitle">An all around service company</p>
+                    </div>
+
+                    <!-- Back -->
+                    <div class="card__back">
+                        <p class="card__body">We are an all-round service provider in Oslo for Real estate, Organizations and Airbnb management. </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card__content"> 
+                    
+                    <div class="card__front" id="me">
+                        <h3 class="cad__title">Mo Eltahir</h3>
+                        <p class="card__subtitle"> Hi there <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"></p>
+                    </div>
+
+                    <div class="card__back">
+                        <p class="card__body">A Computer Science major, Web Developer and Secuirty researcher.</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </body>
 </html>
